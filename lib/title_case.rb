@@ -1,7 +1,6 @@
 class String
-  lowercase_words =["and","of","the","or","a","an", "if","is","my"]
   define_method(:title_case) do
-
+    lowercase_words =["and","of","the","or","a","an", "if","is","my"]
     userArray = self.split()
     outputArray =[]
     userArray.each() do |word|
